@@ -1,9 +1,9 @@
-# @anio-js-core-foundation/create-promise
+# @anio-js-foundation/create-promise
 
-Creates a Promise where `resolve` and `reject` is accessible outside the Promise constructor.
+Create a Promise whose `resolve` and `reject` functions are accessible from outside the Promise constructor.
 
 ```js
-import createPromise from "@anio-js-core-foundation/create-promise"
+import createPromise from "@anio-js-foundation/create-promise"
 
 const {promise, resolve, reject} = createPromise()
 

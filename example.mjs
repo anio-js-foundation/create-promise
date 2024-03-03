@@ -1,4 +1,4 @@
-import createPromise from "./index.mjs"
+import createPromise from "./src/index.mjs"
 
 const {promise, resolve, reject} = createPromise()
 
